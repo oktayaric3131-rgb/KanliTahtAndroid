@@ -1,0 +1,28 @@
+KANLI TAHT APK - ANDROID STUDIO OLMADAN DERLEME
+
+Bu proje GitHub Actions ile bulutta APK oluşturacak şekilde hazırlandı.
+Bilgisayarına Android Studio veya Android SDK kurman gerekmez.
+
+GEREKEN:
+- Ücretsiz GitHub hesabı
+- ZIP'i açıp içindeki proje dosyalarını GitHub deposuna yüklemek
+
+ADIMLAR:
+1. github.com adresine girip ücretsiz hesap aç / giriş yap.
+2. Sağ üstteki + menüsünden New repository seç.
+3. Repository name: KanliTahtAndroid yaz. Public veya Private seçip Create repository de.
+4. Depo sayfasında Add file > Upload files seç.
+5. ZIP dosyasını önce bilgisayarında bir klasöre çıkar.
+6. Çıkan klasörün İÇİNDEKİ tüm dosya ve klasörleri (özellikle .github klasörü dahil) GitHub'a sürükleyip bırak. .github klasörü gizli görünüyorsa gizli dosyaları göster seçeneğini aç.
+7. Commit changes de.
+8. Depoda Actions sekmesine gir.
+9. "Kanli Taht Android APK" iş akışını aç. Otomatik başlamadıysa Run workflow > Run workflow seç.
+10. İşlem tamamlanınca yeşil başarılı çalışmaya tıkla.
+11. Sayfanın altındaki Artifacts bölümünden KanliTaht-Android-APK dosyasını indir.
+12. İnen ZIP'i aç. İçindeki app-debug.apk dosyasını Android telefona gönderip kur.
+
+NOTLAR:
+- İlk bulut derlemesi birkaç dakika sürebilir.
+- Android telefonda APK kurulumu için tarayıcıya/dosya yöneticisine "Bilinmeyen uygulamaları yükle" izni vermen gerekebilir.
+- Bu debug APK test ve doğrudan kurulum içindir. Google Play yayını için ayrıca imzalı release/AAB hazırlanmalıdır.
+- Web uygulaması https://kanlitaht.com.tr adresini açar.
